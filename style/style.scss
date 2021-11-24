@@ -1,8 +1,121 @@
-$color: red;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&family=Mulish:ital,wght@0,200;0,300;1,200&display=swap');
+$font_famal: 'Mulish' , sans-serif;
+$font_famali: 'DM Sans' , sans-serif;
+*,html,body{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+   
+   
+}
+.container{
+    height: 1200px;
+    margin: 0 auto;
 
+}
+.btn{
+    a{
+      padding: 17px 32px;
+      background: #5454D4;
+      color: white;
+      font-size: 20px;
+      border-radius: 10px;
+      transition: 2s;
+      &:hover{
+          background: #ee4248;
+      }
+    }
+}
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    .logo{
+        img{
+            width: 190px;
+            
+        }
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        li{
+            display: inline-block;
+            position: relative;
+            margin: 0 15px;
 
-body{
-    background: $color;
+            &:hover{
+                
+                border-bottom: 1px solid #19191B;
+            }
+         
+            a{
+                font-family: $font_famali;
+                font-size: 15px;
+                color: #19191B;
+              
+            }
 
+        }
+    }
+}
+.text_wrap{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text_block{
+        position: relative;
+        h1{
+            font-size: 80px;
+            font-family: $font_famali;
+            position: relative;
+            bottom: 80px;
+        }
+        p{
+            font-size: 20px;
+            font-family: $font_famal;
+            position: relative;
+            bottom: 40px;
+        }
+        .btn_wrap{
+            display: flex;
+            
+            align-items: center;
+            .arrow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                width: 60px;
+                height: 60px;
+                background: #FFFFFF;
+                border: 1px solid #E7E7E7;
+                left: 30px;
+                border-radius: 50%;
+                font-size: 35px;
+               
 
+            }
+        }
+
+    }
+
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+    .pictures{
+        img{
+            width: 123px;
+        }
+    }
 }
