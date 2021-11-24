@@ -13,7 +13,7 @@ $font_famali: 'DM Sans' , sans-serif;
    
 }
 .container{
-    height: 1200px;
+    width:  1200px;
     margin: 0 auto;
 
 }
@@ -33,7 +33,7 @@ $font_famali: 'DM Sans' , sans-serif;
 header{
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     .logo{
@@ -66,10 +66,12 @@ header{
     }
 }
 .text_wrap{
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 65px;
     .text_block{
         position: relative;
         h1{
@@ -110,9 +112,9 @@ header{
 }
 .bottom{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
-    top: 40px;
+    top: 160px;
     .pictures{
         img{
             width: 123px;
