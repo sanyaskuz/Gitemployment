@@ -12,6 +12,7 @@
 
 .container {
   width: 1200px;
+  height: 1100px;
   margin: 0 auto;
 }
 
@@ -147,5 +148,113 @@ header .main li a {
 
 .bottom .pictures img {
   width: 123px;
+}
+
+.container_index {
+  width: 1100px;
+  height: 1050px;
+  margin: 0 auto;
+}
+
+.flex_wrap .wrap_logo img {
+  width: 348px;
+  height: 473px;
+}
+
+.flex_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_one .text_wrap {
+  width: 556px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  top: -45px;
+  left: 171px;
+}
+
+.flex_one .text_wrap h1 {
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  bottom: 20px;
+}
+
+.flex_one .text_wrap p {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.flex_one .text_wrap a {
+  position: relative;
+  top: 20px;
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  color: #5454D4;
+}
+
+.flex_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_wrap .wrap_logo {
+  position: relative;
+  left: 125px;
+}
+
+.flex_wrap .text_wrap {
+  width: 556px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.flex_wrap .text_wrap h1 {
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  bottom: 20px;
+}
+
+.flex_wrap .text_wrap p {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.flex_wrap .text_wrap a {
+  position: relative;
+  top: 20px;
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  color: #5454D4;
 }
 /*# sourceMappingURL=style.css.map */
